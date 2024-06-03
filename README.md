@@ -1,12 +1,12 @@
-PROJECTNAME
+Home SOC Lab
+
 Objective
 
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
-Skills Learned
+By deploying several Virtual Machines in my home network, I am utilizing a connection by installing pfSense software and deploying Windows Server 2022 and Workstation with Windows 11. 
+Afterwards I am creating an Active Directory Domain between these machines
 
-[Bullet Points - Remove this afterwards]
+Bullet Points
 
     Advanced understanding of SIEM concepts and practical application.
     Proficiency in analyzing and interpreting network logs.
