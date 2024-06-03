@@ -1,21 +1,34 @@
-Home SOC Lab  
+PROJECTNAME
 Objective
 
-[Brief Objective]
+[Brief Objective - Remove this afterwards]
 
-As my journey to Cyber Security field continues, I have decided to choose my path to become Security Operations Center Analyst. I am very interested in analyzing and detecting threats on networks and systems.
+The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Skills Learned
 
-I have been setting up Virtual Machines to create a SOC lab in a comfort of my own home.
+[Bullet Points - Remove this afterwards]
 
-I have used VirtualBox to deploy VM and insert pfSense software on it. I have created a network and set up IP addresses for my own LAN.
+    Advanced understanding of SIEM concepts and practical application.
+    Proficiency in analyzing and interpreting network logs.
+    Ability to generate and recognize attack signatures and patterns.
+    Enhanced knowledge of network protocols and security vulnerabilities.
+    Development of critical thinking and problem-solving skills in cybersecurity.
 
- 
+Tools Used
 
-My next step was creating a second Virtual Machine with Windows Server 2022 so I could setup domain in Active Directory.
+[Bullet Points - Remove this afterwards]
 
-2)Active Directory/Windows Server 2022
+    Security Information and Event Management (SIEM) system for log ingestion and analysis.
+    Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+    Telemetry generation tools to create realistic network traffic and attack scenarios.
 
-Finally, I am deploying a workstation in my third VM with Windows 10 system installed on there, which I managed to join to my existing domain and internal network on pfSense.
+Steps
 
-3)Workstation Windows 11/Finalization of SOC Lab
+drag & drop screenshots here or use imgur and reference them using imgsrc
+
+Every screenshot should have some text explaining what the screenshot is about.
+
+Example below.
+
+Ref 1: Network Diagram
 
