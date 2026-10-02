@@ -33,9 +33,3 @@ To gain hands-on experience, I have been building a virtualized SOC lab in a hom
 
 > *[Insert Workstation Screenshot Here]*
 
----
-
-## Next Steps
-* Deploying SIEM tools (such as Microsoft Sentinel, Elastic, or Splunk).
-* Configuring endpoint monitoring and log collection via Sysmon / Microsoft Defender.
-* Simulating and detecting basic network attacks.
