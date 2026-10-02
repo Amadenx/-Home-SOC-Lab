@@ -1,34 +1,41 @@
-Home SOC Lab
+# Home SOC Lab Deployment
 
-Objective
+As my journey into the cybersecurity field continues, I have chosen my path to become a **Security Operations Center (SOC) Analyst**. I am deeply interested in analyzing and detecting threats across networks and systems. 
 
+To gain hands-on experience, I have been building a virtualized SOC lab in a home environment using VirtualBox. This repository documents the architecture and setup process.
 
-By deploying several Virtual Machines in my home network, I am utilizing a connection by installing pfSense software and deploying Windows Server 2022 and Workstation with Windows 11. 
-Afterwards I am creating an Active Directory Domain between these machines
+---
 
-Bullet Points
+## Lab Architecture & Steps
 
-    Advanced understanding of SIEM concepts and practical application.
-    Proficiency in analyzing and interpreting network logs.
-    Ability to generate and recognize attack signatures and patterns.
-    Enhanced knowledge of network protocols and security vulnerabilities.
-    Development of critical thinking and problem-solving skills in cybersecurity.
+### 1. pfSense Firewall & Network Setup
+* **Platform:** Oracle VM VirtualBox
+* **Software:** pfSense
+* **Details:** Deployed a virtual machine running pfSense to act as the core firewall and router. Created an isolated internal network and configured IP addresses for the local LAN.
 
-Tools Used
+> *[Insert pfSense Screenshots Here]*
 
-[Bullet Points - Remove this afterwards]
+---
 
-    Security Information and Event Management (SIEM) system for log ingestion and analysis.
-    Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-    Telemetry generation tools to create realistic network traffic and attack scenarios.
+### 2. Active Directory & Windows Server 2022
+* **Platform:** Oracle VM VirtualBox
+* **Software:** Windows Server 2022
+* **Details:** Deployed a second virtual machine to serve as the domain controller, establishing the Active Directory domain environment for the lab.
 
-Steps
+> *[Insert Active Directory / Windows Server Screenshot Here]*
 
-drag & drop screenshots here or use imgur and reference them using imgsrc
+---
 
-Every screenshot should have some text explaining what the screenshot is about.
+### 3. Workstation Integration & Lab Finalization
+* **Platform:** Oracle VM VirtualBox
+* **Software:** Windows 10 / Windows 11
+* **Details:** Deployed a client workstation virtual machine, successfully joining it to the internal pfSense network and the Active Directory domain.
 
-Example below.
+> *[Insert Workstation Screenshot Here]*
 
-Ref 1: Network Diagram
+---
 
+## Next Steps
+* Deploying SIEM tools (such as Microsoft Sentinel, Elastic, or Splunk).
+* Configuring endpoint monitoring and log collection via Sysmon / Microsoft Defender.
+* Simulating and detecting basic network attacks.
